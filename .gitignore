@@ -5,7 +5,27 @@ build/
 !**/src/test/**/build/
 .kotlin
 
+### Local config ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+### Logs ###
+logs/
+*.log
+
+### JVM ###
+*.class
+hs_err_pid*
+replay_pid*
+
 ### IntelliJ IDEA ###
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
